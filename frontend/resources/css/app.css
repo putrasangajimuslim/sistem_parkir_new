@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-menu {
+    letter-spacing: 2px;
+    font-weight: 500px;
+    margin: auto 10px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.container-menu ul li a {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: all 0.3s ease-in-out;
+    color: #3A6161;
+}
+
+.container-menu ul li:hover a {
+    border-bottom: 2px solid #3A6161;
+}
